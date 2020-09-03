@@ -68,7 +68,7 @@
             <script type="text/javascript">
                 $(document).ready(function() {
                     $(document).on('click', '#detailPengajuan', function() {
-                        let gambar = $(this).attr('data-gambar');
+                        let photo = $(this).attr('data-gambar');
                         let management = $(this).attr('data-manag');
                         let file = $(this).attr('data-file');
                         let status = $(this).attr('data-sts');
